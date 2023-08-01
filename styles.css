@@ -2,6 +2,25 @@
 body {
     background-color: rgb(247, 254, 106);
 }
+ 
+h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.story {
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    font-size: 50px;
+}
 
 .body {
     display: flex;
@@ -38,16 +57,28 @@ body {
 }
 
 .episodes { 
-    display: flex;
+    display: grid;
     flex-direction: column;
     margin-left: 100px;
     margin-right: 100px;
-    p {
-        
-    }
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(10, 250px);
 }
+
+h3 {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.synopsis {
+    color: black;
+    font-size: 30px;
+}
+
 .thumbnail {
     float: right;
+    width: 400px;
+    height: auto;
 }
 
 #carouselExampleCaptions {
