@@ -1,0 +1,25 @@
+
+body {
+    background-color: rgb(214, 214, 214);
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logo {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.characters {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 400px 20px 400px;
+}
