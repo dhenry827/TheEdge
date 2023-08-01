@@ -22,8 +22,8 @@ body {
     display: grid;
     margin-top: 10px;
     margin-bottom: 50px;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 575px;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 575px ;
 }
 
 .characters2 {
@@ -31,7 +31,7 @@ body {
     display: grid;
     margin-top: 10px;
     margin-bottom: 50px;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 300px 300px 300px 300px;
     grid-template-rows: 575px;
 }
 
