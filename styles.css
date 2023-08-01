@@ -17,13 +17,22 @@ body {
     justify-content: center;
 }
 
-.characters {
+.characters1 {
     justify-content: center;
     display: grid;
     margin-top: 10px;
     margin-bottom: 50px;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 415px 415px;
+    grid-template-rows: 575px;
+}
+
+.characters2 {
+    justify-content: center;
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 575px;
 }
 
 #carouselExampleCaptions {
